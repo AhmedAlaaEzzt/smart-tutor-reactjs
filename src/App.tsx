@@ -1,7 +1,9 @@
+import { Table } from "./components/Table";
 function App() {
   return (
     <>
-      <div>Students table</div>
+      <h1>Students table</h1>
+      <Table />
     </>
   );
 }
