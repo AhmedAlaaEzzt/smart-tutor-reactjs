@@ -23,7 +23,7 @@ export const StudentsTable = () => {
         <TableBody>
           {students.map((student) => {
             return (
-              <TableRow>
+              <TableRow key={student.id}>
                 <TableCell align="left">{student.name}</TableCell>
                 <TableCell align="left">{student.age}</TableCell>
                 <TableCell align="left">{student.email}</TableCell>
