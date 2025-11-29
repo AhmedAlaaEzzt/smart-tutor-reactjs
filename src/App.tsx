@@ -1,8 +1,8 @@
+import { useState } from "react";
 import { Box, Button, Stack } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
-import { StudentsTable } from "./components/StudentsTable";
-import { StudentEditModal } from "./components/StudentEditModal";
-import { useState } from "react";
+import { StudentsTable } from "@components/StudentsTable";
+import { StudentEditModal } from "@components/StudentEditModal";
 
 function App() {
   const [isStudentEditModalOpen, setIsStudentEditModalOpen] = useState(false);
