@@ -6,7 +6,7 @@ import TableRow from "@mui/material/TableRow";
 import TableCell from "@mui/material/TableCell";
 import TableBody from "@mui/material/TableBody";
 
-import { students } from "../utils/students";
+import { students } from "@utils/students";
 
 export const StudentsTable = () => {
   return (
